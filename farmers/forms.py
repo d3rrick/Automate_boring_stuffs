@@ -3,6 +3,7 @@ from django import forms
 MY_CHOICES = (
     ('migori', 'migori'),
     ('makueni', 'makueni'),
+    ('elgeyo_marakwet','elgeyo_marakwet')
 )
 
 class UploadForm(forms.Form):
